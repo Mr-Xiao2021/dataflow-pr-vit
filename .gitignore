@@ -1,0 +1,23 @@
+# Python 缓存文件
+__pycache__/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 日志目录
+log/
+
+# 模型权重保存目录
+save_weights/
+
+# 数据集目录
+dataset/
+
+# 保证在任意深度都忽略这些文件夹
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/logs/
+**/weights/
+**/save_weights/
+**/save_weights1/
+**/dataset/
