@@ -52,9 +52,9 @@ def load_data(filepath):
     return adj_matrix, max_nodeid, edge_count
 
 # export ORION_CUDART_VERSION=11.8
-# python PR.py g18.edges
-# python PR.py g19.edges
-# python PR.py g20.edges
+# python PR.py Rmat-18.edges
+# python PR.py Rmat-19.edges
+# python PR.py Rmat-20.edges
 if __name__ == '__main__':
     root_path = '/gemini/code/graph/'
     filepath = root_path + sys.argv[1]

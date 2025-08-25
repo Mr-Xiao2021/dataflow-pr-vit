@@ -89,4 +89,4 @@ if __name__ == '__main__':
     print(f"\t\tGTEPS: {GTEPS:.6f}")
     print(f"\t\tTotal Cost: {all_time:.3f} seconds")
     print("================================ TensorFlow METHOD =======================================")
-    print_output(pagerank_vector)
+    # print_output(pagerank_vector)

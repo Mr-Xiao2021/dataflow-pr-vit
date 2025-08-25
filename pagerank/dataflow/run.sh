@@ -4,7 +4,10 @@ card_num=1
 graph_name="Rmat-18"
 data_path="/gemini/code/graph"
 
+# 更新软件包列表
 # apt-get update
+
+# 安装 bc 计算器工具
 # apt-get install -y bc
 
 # 参数解析
@@ -66,4 +69,4 @@ ELAPSED_TIME=$(echo "$END_TIME - $START_TIME" | bc)
 echo -e "\t\tTotal Cost: $ELAPSED_TIME seconds"
 echo "================================ DATAFLOW METHOD ======================================="
 
-python rank_show.py
+# python rank_show.py
